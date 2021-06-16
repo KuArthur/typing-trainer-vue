@@ -1,6 +1,6 @@
 <template>
   <div class="typing-trainer">
-    <Text :text="getText" />
+    <Text :text="getText" :hasError="hasError" :activeIndex="activeIndex" />
   </div>
 
 </template>

@@ -3,4 +3,20 @@
   border-radius: 20px;
   width: 60%;
   padding: 20px;
+
+  .default {
+    background: #fff;
+  }
+
+  .error {
+    background: #d31313;
+  }
+  
+  .success {
+    background: #0aad0a;
+  }
+
+  .active {
+    background: #f7f700;
+  }
 }
